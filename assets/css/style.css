@@ -1,8 +1,9 @@
+
 body{
     
     font-family: "Poppins", sans-serif;
     background-color: black;
-padding: 10;    color: white;
+    padding: 10;    color: white;
 
 }
 
@@ -34,4 +35,7 @@ h1{
 
 .container card{
     padding: 10%;
+}
+.container-fluid i{
+margin-bottom: 3%;
 }

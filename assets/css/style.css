@@ -1,6 +1,8 @@
 body{
     
     font-family: "Poppins", sans-serif;
+    background-color: black;
+padding: 10;    color: white;
 
 }
 
@@ -25,3 +27,11 @@ h1{
         text-align: center;
 
     }
+
+    h2{
+        padding: 5%;
+    }
+
+.container card{
+    padding: 10%;
+}

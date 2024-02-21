@@ -1,0 +1,10 @@
+body{
+    
+    font-family: "Poppins", sans-serif;
+
+}
+
+.navbar-nav{
+    justify-content: space-around;
+    color: white;
+}

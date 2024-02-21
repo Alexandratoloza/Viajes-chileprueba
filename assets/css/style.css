@@ -4,7 +4,24 @@ body{
 
 }
 
-.navbar-nav{
-    justify-content: space-around;
+.nav{
+    text-align: center;
     color: white;
 }
+
+h1{
+    padding: 5%;
+}
+
+.icon i
+    {
+
+        background-color: aqua;
+        padding: 5% 45%;
+    }
+
+    .con p {
+        padding: 5% 45%;
+        text-align: center;
+
+    }

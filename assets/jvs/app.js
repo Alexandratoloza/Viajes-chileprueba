@@ -1,8 +1,8 @@
- let BotonparaEnviar = document.querySelectorall("#BotonparaEnviar")
- let btn = document.querySelector("button");
- btn.addEventListener("click", function(){
-    nombre.style,color = "blue";
- })
- 
- 
- 
+let boton; 
+boton = document.querySelector("#BotonparaEnviar") 
+boton.addEventListener("click",function(){
+
+    alert("Te Contactaremos")
+})
+console.log("BotonparaEnviar");
+

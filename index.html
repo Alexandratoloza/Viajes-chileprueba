@@ -15,11 +15,12 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md bg-info">
+    <nav class="navbar navbar-expand-sm fixed-top">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
             aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -44,36 +45,33 @@
 
         </div>
     </nav>
-    <main class="flex-md-row">
 
-        <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="img1">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="img2">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="img3">
-                </div>
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="img1">
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Anterior</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Proxima</span>
-            </button>
+            <div class="carousel-item">
+                <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="img2">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="img3">
+            </div>
         </div>
-
-
-
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Proxima</span>
+        </button>
+    </div>
+    <main class="">
         <section class="container-fluid">
             <h1 class="text-center">Quienes Somos</h1>
-            <article class="row col-12 col-mg-4">
-                <div class=" icon col-4">
+            <article class="row">
+                <div class="icon col-12 col-sm-6 col-lg-4">
                     <i class="fa-brands fa-avianex fa-2x"></i>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam dolore repudiandae, dolores
                         necessitatibus aperiam quaerat sed. Ducimus modi reiciendis sequi corporis officiis accusantium
@@ -83,9 +81,8 @@
                         necessitatibus aperiam quaerat sed. Ducimus modi reiciendis sequi corporis officiis accusantium
                         id
                         sapiente. Sunt exercitationem odio accusamus commodi?</p>
-
                 </div>
-                <div class=" icon col-4">
+                <div class="icon col-12 col-sm-6 col-lg-4">
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam dolore repudiandae, dolores
                         necessitatibus aperiam quaerat sed. Ducimus modi reiciendis sequi corporis officiis accusantium
                         id
@@ -97,7 +94,7 @@
                     <i class="fa-solid fa-mountain-sun fa-2x"></i>
 
                 </div>
-                <div class=" icon col-4">
+                <div class=" icon col-12 col-sm-6 col-lg-4">
                     <i class="fa-solid fa-map-location fa-2x"></i>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam dolore repudiandae, dolores
                         necessitatibus aperiam quaerat sed. Ducimus modi reiciendis sequi corporis officiis accusantium
@@ -112,88 +109,94 @@
 
             </article>
         </section>
-        <section class="container-fluid">
-            <h2 class="text-center"> DESTACADOS</h2>
-            <div class="row col-mg-4">
-                <div class="col-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/img/card1.jpg" class="card-img-top" alt="imagencard1">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/img/card2.jpg" class="card-img-top" alt="Imagencard2">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/img/card3.jpg" class="card-img-top" alt="Imagencard3">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/img/card4.jpg" class="card-img-top" alt="Imagencard4">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
-                        </div>
+
+
+    </main>
+    <section class="container-fluid mb-1 ">
+        <h2 class="text-center"> DESTACADOS</h2>
+        <div class="row">
+            <div class="col-12 col-sm-3 col-lg-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/card1.jpg" class="card-img-top" alt="imagencard1">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of
+                            the card's content.</p>
                     </div>
                 </div>
             </div>
-
-        </section>
-
-        <section class="container col-md-12">
-            <h2 class="text-center"> CONTACTOS</h2>
-            <article>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Pedro Perez">
+            <div class="col-12 col-sm-3 col-lg-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/card1.jpg" class="card-img-top" alt="Imagencard2">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of
+                            the card's content.</p>
+                    </div>
                 </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">E-mail</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1"
-                        placeholder="pedroperez@gmail.com">
+            </div>
+            <div class="col-12 col-sm-3 col-lg-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/card3.jpg" class="card-img-top" alt="Imagencard3">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of
+                            the card's content.</p>
+                    </div>
                 </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="col-12 col-sm-3 col-lg-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/card4.jpg" class="card-img-top" alt="Imagencard4">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of
+                            the card's content.</p>
+                    </div>
                 </div>
-                <button type="button" class="btn bg-info mb-3" id="BotonparaEnviar" data-bs-toggle="tooltip"
-                    data-bs-placement="top" data-bs-title="Tooltip on top">
-                    Enviar
-                </button>
+            </div>
+        </div>
 
-            </article>
+    </section>
 
-        </section>
+    <section class="container-flex">
+        <h2 class="text-center"> CONTACTOS</h2>
+        <article>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Pedro Perez">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1"
+                    placeholder="pedroperez@gmail.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="button" class="btn bg-info mb-3" id="BotonparaEnviar" data-bs-toggle="tooltip"
+                data-bs-placement="top" data-bs-title="Tooltip on top">
+                Enviar
+            </button>
 
-        <footer class="container-fluid bg-info p-4 data-bs-target ">
+        </article>
 
+    </section>
+
+    <footer class="container-flex bg-info p-4 data-bs-target ">
+
+
+        <div>
             <p class="text-center"> VIAJES CHILE
-
                 <a href="https://github.com" target="_blank">
                     <i class="fa-brands fa-github fa-2x" style="color: #f7f7f7;"></i>
                 </a>
+
                 <a href="https://www.linkedin.com " target="_blank">
                     <i class="fa-brands fa-linkedin fa-2x" style="color: #f9fafb;"></i>
                 </a>
+
                 <a href="https://es-la.facebook.com" target="_blank">
                     <i class="fa-brands fa-facebook fa-2x" style="color: #fafcff;"></i>
                 </a>
@@ -201,12 +204,13 @@
                     <i class="fa-brands fa-instagram fa-2x" style="color: #f8f9fc;"></i>
 
                 </a>
+
             </p>
+        </div>
 
 
-        </footer>
+    </footer>
 
-    </main>
 
 
     <script src="assets/jvs/app.js"></script>

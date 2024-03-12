@@ -24,9 +24,11 @@ h1{
         padding: 5% 45%;
     }
 
+
+
     .con p {
         padding: 5% 45%;
-        text-align: center;
+        text-align: justify;
 
     }
 
@@ -39,7 +41,7 @@ h1{
     padding-top: 1%;
 }
 
-.container-flex {
+.footer {
 
 justify-content: space-between;
 
